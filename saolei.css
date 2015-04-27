@@ -1,0 +1,29 @@
+#wrapper{
+  overflow: hidden;
+  margin:auto;
+  border-left:2px solid blue;
+  border-top:2px solid blue;
+}
+#wrapper > div{
+  width: 20px;
+  height: 20px;
+  float: left;
+  border: 2px solid blue;
+  margin: -2px 0 0 -2px;
+  text-align: center;
+  box-shadow: inset 1px 1px 1px #888,inset -1px -1px 1px #888;
+}
+#wrapper > div.close{
+  background: #cecece;
+  box-shadow: none;
+}
+#wrapper > div.lei{
+  font-size: 1em;
+  font-weight: bold;
+}
+#wrapper > div.leiclose{
+  font-size: 1em;
+  font-weight: bold;
+  background: #cecece;
+  box-shadow: none;
+}
