@@ -1,16 +1,17 @@
 #wrapper{
   overflow: hidden;
   margin:auto;
-  border-left:2px solid blue;
-  border-top:2px solid blue;
+  border-left:2px solid #333;
+  border-top:2px solid #333;
 }
 #wrapper > div{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   float: left;
-  border: 2px solid blue;
+  border: 2px solid #333;
   margin: -2px 0 0 -2px;
   text-align: center;
+  line-height: 30px;
   box-shadow: inset 1px 1px 1px #888,inset -1px -1px 1px #888;
 }
 #wrapper > div.close{
@@ -26,4 +27,12 @@
   font-weight: bold;
   background: #cecece;
   box-shadow: none;
+  background-color: indianred;
+}
+.renew{
+  display: block;
+  padding: 8px 15px;
+  margin: 10px auto;
+  font-size: 16px;
+  line-height: 1em;
 }
